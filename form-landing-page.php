@@ -1,7 +1,7 @@
 <?php
-$word_to_redact = trim($_POST['word-to-find'] , " ");
-$text_unredacted = trim($_POST['text-unredacted'] , " ");
-$text_redacted = str_ireplace($word_to_redact , "***" , $text_unredacted);
+$word_to_redact = trim($_POST['word-to-find'], " ");
+$text_unredacted = trim($_POST['text-unredacted'], " ");
+$text_redacted = str_ireplace($word_to_redact, "***", $text_unredacted);
 ?>
 
 <!DOCTYPE html>
